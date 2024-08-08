@@ -8,5 +8,5 @@ import com.api_rest.crud.crud.model.User;
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {
 
-    
+    //Aquí se impleplementa los metodos propios!
 }
