@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api_rest.crud.crud.dao.IUserDAO;
-import com.api_rest.crud.crud.model.User;
+import com.api_rest.crud.crud.model.dao.IUserDAO;
+import com.api_rest.crud.crud.model.entity.User;
 import com.api_rest.crud.crud.service.IUserService;
 
 @Service

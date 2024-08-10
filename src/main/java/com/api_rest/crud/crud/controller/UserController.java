@@ -2,13 +2,13 @@ package com.api_rest.crud.crud.controller;
 
 import java.util.List;
 
-import com.api_rest.crud.crud.model.User;
+import com.api_rest.crud.crud.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.api_rest.crud.crud.dto.UserDTO;
+import com.api_rest.crud.crud.model.dto.UserDTO;
 import com.api_rest.crud.crud.service.IUserService;
 
 @RestController

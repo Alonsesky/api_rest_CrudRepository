@@ -1,4 +1,4 @@
-package com.api_rest.crud.crud.model;
+package com.api_rest.crud.crud.model.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

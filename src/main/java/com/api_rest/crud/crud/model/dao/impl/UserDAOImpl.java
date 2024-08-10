@@ -1,4 +1,4 @@
-package com.api_rest.crud.crud.dao.impl;
+package com.api_rest.crud.crud.model.dao.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.api_rest.crud.crud.dao.IUserDAO;
-import com.api_rest.crud.crud.model.User;
+import com.api_rest.crud.crud.model.dao.IUserDAO;
+import com.api_rest.crud.crud.model.entity.User;
 import com.api_rest.crud.crud.repository.UserRepository;
 
 @Component

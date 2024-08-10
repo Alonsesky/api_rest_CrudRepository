@@ -1,4 +1,4 @@
-package com.api_rest.crud.crud.dto;
+package com.api_rest.crud.crud.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
